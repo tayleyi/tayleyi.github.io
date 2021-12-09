@@ -29,6 +29,8 @@ body {
 
 code {
 	font-family: 'Azeret Mono';
+	background-color: lavender;
+	padding: 1ch 0 1ch 0;
 }
 
 .left {
@@ -45,4 +47,13 @@ a:hover {
 	background-color: darkslateblue;
 	color:lemonchiffon;
 	text-decoration: none;
+}
+
+ul li {
+	list-style-type: "💜 ";
+//	list-style-type: disc;
+}
+
+hr {
+	margin: 1rem 0 2rem 0;
 }
