@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
+body {
+	font: 1.5rem 'Poppins', Arial, sans-serif;
+	margin: 2rem;
+}
+
+.two-sides {
+	display: flex;
+}
+
+.right, .left {
+	flex: 1;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.name {
+	flex-shrink: 1;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	transform: rotate(180deg);
+	text-align: right;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+code {
+	font-family: 'Azeret Mono';
+}
+
+.left {
+	line-height: 1.75em;
+}
+
+a {
+	color: darkslateblue;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+a:hover {
+	background-color: darkslateblue;
+	color:lemonchiffon;
+	text-decoration: none;
+}
