@@ -21,6 +21,7 @@ a {
 	color: darkslateblue;
 	text-decoration: underline;
 	text-decoration-thickness: 3px;
+	transition: all 0.3s;
 }
 
 a:hover {
