@@ -1,0 +1,145 @@
+/* reset.css */
+@import url('./reset.css');
+
+/* body font */
+@import url('https://use.typekit.net/lyc5osj.css');
+/* code font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+/* heading font */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+body {
+	font: 1.2rem 'Acumin Pro Regular', Arial, sans-serif;
+	line-height: 2rem;
+}
+.section-1 {
+	padding: 5%;
+	margin: auto;
+	width: 80%;
+}
+.dual-column {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+.section-2, .section-3 {
+	flex: 1;
+	padding: 5% 10% 5% 10%;
+}
+.section-2 {
+	background-color: #1c0000;
+	color:#fff;
+}
+.section-3 {
+	color: #1c0000;
+	background-color: #f8dcb4;
+}
+.section-4 {
+	width: 80%;
+	margin: auto;
+	padding: 5%;
+}
+h1, h2, h3 {
+	font-family: 'Marcellus';
+}
+h2 {
+	font-size: 2rem;
+	font-weight: 400;
+	font-style: italic;
+	margin-left: -1rem;
+	margin-bottom: 1rem;
+}
+h2::after {
+	content: " —";
+}
+#title {
+	font-size: 2rem;
+	margin: 1rem;
+}
+
+ul li {
+	list-style-type: circle;
+}
+
+hr {
+	margin: 1rem 0 2rem 0;
+}
+
+iframe {
+	margin-top: 2rem;
+}
+
+.right, .left {
+	flex: 1;
+	flex-basis: 30%;
+	margin: 1rem;
+	min-width: 30%;
+}
+
+.left {
+	line-height: 1.75em;
+}
+.name {
+	flex-shrink: 1;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	transform: rotate(180deg);
+	text-align: right;
+	margin: 1rem;
+	line-height: 1em;
+}
+
+.page-container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.intro-table {
+	width: 100%;
+	border-top: solid 0.5rem black;
+	border-bottom: solid 0.1rem black;
+	border-collapse: collapse;
+}
+
+.intro-table tr {
+	border-top: solid 0.1rem black;
+	padding: 1rem;
+}
+.intro-table td {
+	padding: 1rem;
+}
+.intro-table tr td:nth-child(odd) {
+	text-align: left;
+}
+  
+.intro-table tr td:nth-child(even) {
+	text-align: right;
+}
+em {
+	font-style: italic;
+}
+.tile-space {
+	display: flex;
+	flex-flow: row wrap;
+}
+.tile {
+	flex: 1;
+	margin: 1rem;
+	padding: 1rem;
+}
+.tile table tr {
+	border-bottom: solid 1px black;
+	padding: 1rem;
+}
+.tile table tr td {
+	padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.contact {
+	color: white;
+	text-decoration: none;
+	border: solid .1ch white;
+	padding: .2rem;
+	flex: 1;
+	margin: 1rem;
+	text-align: center;
+}
